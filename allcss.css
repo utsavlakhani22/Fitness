@@ -1,35 +1,37 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
-    font-family :Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 
-.navbgclr{
+.navbgclr {
     background-color: #c0a379;
 }
 
-.mainclr{
-    color:  #c0a379;;
+.mainclr {
+    color: #c0a379;
+    ;
 }
 
-.bgimg1{
+.bgimg1 {
     background-image: url(./image/bg-3-1903-1.jpg);
     background-size: cover;
     background-position: center;
     width: 100%;
-    opacity: 0.5;
+    height: 600px;
+    opacity: 0.7;
 }
 
-.bgimBody{
+.bgimBody {
     background-image: url(./image/yoga123.webp);
-    background-size:auto;
+    background-size: auto;
     background-position: center;
     width: 100vw;
     height: 100vh;
 }
 
-.bgimg2{
+.bgimg2 {
     background-image: url(./image/woman-using-smarthone-near-weight-rack.jpg);
     background-size: cover;
     background-position: center;
@@ -37,31 +39,33 @@
     opacity: 0.7;
 }
 
-.logo{
+.logo {
     width: 70%;
     padding: 5vh;
     opacity: 1;
     color: rgb(0, 0, 0);
 }
 
-.txt-black{
+.txt-black {
     color: rgb(0, 0, 0);
     text-decoration: none;
     font-size: 3.5vh;
     font-weight: bolder;
     opacity: 1;
 }
-:hover.txt-black{
+
+:hover.txt-black {
     text-decoration: underline;
 }
 
-.txt-red{
+.txt-red {
     color: rgb(0, 64, 255);
     font-size: 80px;
-    font-family : sans-serif; 
+    font-family: sans-serif;
     text-decoration: none;
 }
-.bookbtn{
+
+.bookbtn {
     height: 50px;
     width: 150px;
     font-size: 18px;
@@ -70,7 +74,17 @@
     background-color: rgb(0, 98, 255);
     color: white;
 }
-.bookbtn2{
+
+/* div p:hover {
+    background-color: rgb(180, 180, 180);
+    color: black;
+    opacity: 0.8;
+    rotate: 10%;
+    border-radius: 20px;
+    transition: 0.8s;
+} */
+
+.bookbtn2 {
     height: 50px;
     width: 150px;
     font-size: 18px;
@@ -79,55 +93,96 @@
     background-color: rgb(255, 98, 250);
     color: white;
 }
-:hover.bookbtn{
+
+:hover.bookbtn {
     background-color: rgb(8, 66, 255);
 }
 
-.user{
+.user {
     width: 30%;
 }
 
-.text-center{
+.text-center {
     text-align: center;
 }
 
-.brd1{
-    border:  1px solid black;
+.brd1 {
+    border: 1px solid black;
     border-radius: 10px;
 }
 
-.fs1{font-size: 50px;}
-.fs2{font-size: 45px;}
-.fs3{font-size: 30px;}
-.fs4{font-size: 25px;}
-.fs5{font-size: 20px;}
+.fs1 {
+    font-size: 50px;
+}
 
+.fs2 {
+    font-size: 45px;
+}
 
-.w10{width: 50vh;}
+.fs3 {
+    font-size: 30px;
+}
 
-.p{padding: 30px;}
-.pt1{padding-top: 200px;}
-.pt2{padding-top: 500px;}
-.pt3{padding-top: 100px;}
-.pb1{padding-bottom: 130px;}
-.pb3{padding-bottom: 230px;}
+.fs4 {
+    font-size: 25px;
+}
 
-.clrpk{color: rgb(236, 67, 124);}
-.div{background-color: rgb(146, 146, 146);
+.fs5 {
+    font-size: 20px;
+}
+
+.w10 {
+    width: 50vh;
+}
+
+.p {
+    padding: 30px;
+}
+
+.pt1 {
+    padding-top: 200px;
+}
+
+.pt2 {
+    padding-top: 500px;
+}
+
+.pt3 {
+    padding-top: 100px;
+}
+
+.pb1 {
+    padding-bottom: 130px;
+}
+
+.pb3 {
+    padding-bottom: 230px;
+}
+
+.clrpk {
+    color: rgb(236, 67, 124);
+}
+
+.div {
+    background-color: rgb(146, 146, 146);
     height: 200px;
-    }
-.t-white{
+}
+
+.t-white {
     color: white;
     text-decoration: none;
     font-size: 20px;
-}   
+}
 
-     
+.h50 {
+    height: 50px;
+}
 
-.h50{height: 50px;}
-.clrblue{background-color: rgb(24, 24, 132);}
+.clrblue {
+    background-color: rgb(24, 24, 132);
+}
 
-.img1{
+.img1 {
     background-image: url(./image/athlete-exercising.jpg);
     width: 100%;
     margin-top: 1%;
@@ -138,7 +193,8 @@
     opacity: 0.7;
     height: 400px;
 }
-.img2{
+
+.img2 {
     background-image: url(./image/two-yogis-doing-monkey-god-pose-gym.jpg);
     width: 100%;
     margin-top: 1%;
@@ -149,10 +205,11 @@
     opacity: 0.7;
     height: 200px;
 }
-.imgs{
+
+.imgs {
     background-image: url(./image/yoga123.webp);
-    margin-left: 10%;
-    width: 80%;
+    margin-left: 12%;
+    width: 75%;
     margin-top: 1%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -161,18 +218,73 @@
     opacity: 0.7;
     height: 350px;
 }
-.ftr{
-    background: none; 
+
+.ftr {
+    background: none;
     color: white;
     border: 1px solid white;
 }
-.ftr:hover{
+
+.ftr:hover {
     background-color: white;
     color: #000000;
     transition: 0.5s;
 }
 
-.box1{
+.imgblog{
+    background-image: url(bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    background-attachment: fixed;
+    width: 100%;
+    ;
+}
+
+.imgourteam{
+    background-image: url(./image/yoga123.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 900px;
+    background-attachment: fixed;
+    width: 100%;
+}
+@keyframes buttonHover {
+    0% {
+      transform: translateY(0);
+      box-shadow: 0 0 0 rgba(0, 0, 0, 0.2);
+    }
+    50% {
+      transform: translateY(-5px);
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    }
+    100% {
+      transform: translateY(0);
+      box-shadow: 0 0 0 rgba(0, 0, 0, 0.2);
+    }
+  }
+
+.lhover:hover{
+    color: #c0a379;
+    font-weight: 1000;
+    transition: 0.7s;
+}
+.ehover:hover{
+    border-radius: 10px;
+    width: 200px;
+    transition: 0.4s;
+}
+
+.loghover:hover{
+    background-color: white;
+    color: #000000;
+    border-radius: 10px;
+    width: 200px;
+    transition: 0.4s;
+}
+
+
+.box1 {
     margin-left: 5px;
     height: 13vh;
     border-radius: 8px;
@@ -182,7 +294,8 @@
     align-items: center;
     background-color: rgba(0, 254, 254, 0.272);
 }
-.box2{
+
+.box2 {
     margin-left: 5px;
     height: 13vh;
     border-radius: 8px;
@@ -192,7 +305,8 @@
     align-items: center;
     background-color: rgba(102, 254, 0, 0.272);
 }
-.box3{
+
+.box3 {
     margin-left: 5px;
     height: 13vh;
     border-radius: 8px;
@@ -203,7 +317,7 @@
     background-color: rgba(25, 0, 254, 0.272);
 }
 
-.shopbox{
+.shopbox {
     margin-left: 30px;
     height: 150px;
     width: 150px;
@@ -212,16 +326,17 @@
     justify-content: center;
     align-items: center;
 }
-.shopbox2{
+
+.shopbox2 {
     margin-left: 40px;
     height: 150px;
     width: 350px;
     border: 2px solid gray;
-    
+
 }
 
-.shopadmin{
-    width: 80%; 
+.shopadmin {
+    width: 80%;
     border: 1px solid black;
     border-radius: 10px;
 }
