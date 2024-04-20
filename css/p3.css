@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+:root {
+    --brown: #c1b688;
+    --font: #424242;
+}
+.section-11 {
+    background-image: url(../image/mm1.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 100px;
+    overflow: hidden;
+    color: white;
+    height: 800px;
+}
+/* .m{
+    /* font-size: 40px; */
+    /* margin-top: 30px; */
+    /* padding-top: 30px; 
+} */
+.k i {
+    color: red;
+}
+.r button {
+    width: 100%;
+}
+.r img {
+    width: 100%;
+}
