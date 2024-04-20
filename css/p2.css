@@ -1,0 +1,316 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+:root {
+    --brown: #c1b688;
+    --font: #424242;
+}
+.section-11 {
+    background-image: url(../image/mm1.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 100px;
+    overflow: hidden;
+    color: white;
+    height: 800px;
+}
+.sec-11 {
+    width: 470px;
+    border: 3px solid white;
+    padding: 100px 50px;
+    right: 100px;
+    animation-duration: 3s;
+    animation-name: sec-1-1;
+}
+@keyframes sec-1-1 {
+    0% {
+        right: 100px;
+    }
+
+    2% {
+        right: -800px;
+    }
+
+    50% {
+        right: 100px;
+    }
+
+    100% {
+        right: 100px;
+    }
+}
+
+.section-11:hover .sec-11 {
+    right: 100px;
+}
+.header1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* width: 50%; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;
+    padding: 10px 100px;
+    z-index:1;
+}
+
+
+.section-1 {
+    background-image: url(./1.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 100px;
+    overflow: hidden;
+    color: white;
+    height: 800px;
+}
+/* .p{
+    margin-left:20p;
+} */
+.m{
+    font-size: 40px;
+    /* margin-top: 30px; */
+    padding-top: 30px;
+}
+
+#k{
+     margin-top: 30px; 
+
+
+}
+.sec-1 {
+    background-color: rgba(240 ,183 ,153 ,0.5);
+}
+.sec-4 {
+    /* margin-top: 900px; */
+    background-color: #e5e5e5;
+}
+
+.pa-5 {
+    font-size: 50px;
+}
+
+.pa-3 {
+    font-size: 18px;
+    margin-bottom: 80px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.row-1 {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+}
+
+.section-4 {
+    margin: 0px 100px;
+}
+
+.section-4-1 {
+    margin: 0 15px 50px 0px;
+    height: fit-content;
+    background-color: var(--brown);
+    padding: 25px;
+}
+
+.section-4-2 {
+    height: fit-content;
+    margin: 150px 15px 50px 15px;
+    background-color: var(--brown);
+    padding: 25px;
+}
+
+.section-4-3 {
+    margin: 300px 0px 50px 15px;
+    height: fit-content;
+    background-color: var(--brown);
+    padding: 25px;
+}
+
+.pa-4 {
+    font-size: 15px;
+}
+
+.image-1 {
+    background-image: url(../image/2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 180px;
+    box-shadow: 0 0 5px black;
+}
+
+.section-4-1:hover .image-1 {
+    height: 200px;
+}
+
+.image-2 {
+    background-image: url(../image/3.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 180px;
+    box-shadow: 0 0 5px black;
+}
+
+.section-4-2:hover .image-2 {
+    height: 200px;
+}
+
+.image-3 {
+    background-image: url(../image/young-beautiful-woman-doing-yoga-nature_1139-909.avif);
+    background-position: center;
+    background-size: cover;
+    height: 180px;
+    box-shadow: 0 0 5px black;
+}
+
+.section-4-3:hover .image-3 {
+    height: 200px;
+}
+
+@media screen and (max-width: 425px) {
+    @keyframes sec-1-1 {
+        0% {
+            right: 100px;
+        }
+    
+        2% {
+            right: -800px;
+        }
+    
+        50% {
+            right: 100px;
+        }
+    
+        100% {
+            right: 100px;
+        }
+    }
+    .svg-1 {
+    height: 220px;
+}
+
+.sec-4 {
+    /* margin-top: 900px; */
+}
+
+.pa-5 {
+    font-size: 50px;
+}
+
+.pa-3 {
+    font-size: 18px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.section-4 {
+    margin: 0px 100px;
+}
+
+.section-4-1 {
+    margin: 0 15px 50px 0px;
+    padding: 25px;
+}
+
+.section-4-2 {
+    margin: 150px 15px 50px 15px;
+    padding: 25px;
+}
+
+.section-4-3 {
+    margin: 300px 0px 50px 15px;
+    padding: 25px;
+}
+
+.pa-4 {
+    font-size: 15px;
+}
+.svg-1 {
+    height: 100px;
+}
+
+.sec-4 {
+    margin-top: 50px;
+}
+
+.pa-5 {
+    font-size: 17px;
+}
+
+.pa-3 {
+    font-size: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.section-4 {
+    margin: 0px 10px;
+}
+
+.section-4-1 {
+    margin: -40px 5px 50px 0px;
+    padding: 25px;
+}
+
+.section-4-2 {
+    margin: 10px 5px 50px 5px;
+    padding: 25px;
+}
+
+.section-4-3 {
+    margin: 10px 0px 50px 5px;
+    padding: 25px;
+}
+
+.pa-4 {
+    font-size: 10px;
+}
+}
+
+/* .sec1-1{
+    background-image: url('../image/2.jpg');
+    height: 400px;
+    background-size: 100%;
+    padding-left: 450px;
+    padding-top: 100px;
+} */
+/* .sec1-2{
+    background-image: url('../image/3.jpg');
+    height: 400px;
+    background-size: 100%;
+    padding-left: 450px;
+    padding-top: 100px;
+}
+@media (min-width: 768px) {
+    .sec-1 .col-md-6 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+} */
+.sec-3 {
+    background-color: rgb(0, 0, 0);
+    /* margin-bottom: 120px; */
+}
+.m{
+    text-align: center;
+    
+}
+.ftr{
+    background: none; 
+    color: white;
+    border: 1px solid white;
+}
+.ftr:hover{
+    background-color: white;
+    color: #000000;
+    transition: 0.7s
+}
+.b{
+    background-color: #2b271c;
+}
